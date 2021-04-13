@@ -3,7 +3,7 @@ import "./AboutMe.css";
 export const AboutMe = () => {
   return (
     <div id="aboutme">
-      <Row style={{ marginTop: "37vh", width: "100vw" }}>
+      <Row style={{ marginTop: "37vh" }}>
         <Col lg={5} xs={2} md={3} sm={3} />
         <Col lg={6} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
           <h1 className="about-heading">
@@ -35,15 +35,13 @@ export const AboutMe = () => {
         <Col lg={9} style={{ display: "flex", alignItems: "center" }}>
           <section className="main">
             <div className="container">
-              <>
-                <div className="img-container">
-                  <img
-                    className="image"
-                    src="https://i.imgur.com/Tcot1pl.jpg"
-                    alt="MyFace"
-                  />
-                </div>
-              </>
+              <div className="img-container">
+                <img
+                  className="image"
+                  src="https://i.imgur.com/Tcot1pl.jpg"
+                  alt="MyFace"
+                />
+              </div>
             </div>
           </section>
         </Col>

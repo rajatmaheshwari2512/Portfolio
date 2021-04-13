@@ -9,6 +9,9 @@
   width: 50%;
   height: 50%;
 }
+.about-heading {
+  border-bottom: 2px solid rgb(168, 164, 164);
+}
 @media screen and (max-width: 1505px) {
   .image {
     width: 75%;
