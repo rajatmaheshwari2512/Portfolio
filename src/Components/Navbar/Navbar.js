@@ -9,7 +9,7 @@ export const Navbar = () => {
       <Header>
         <Row style={{ height: "100%", marginTop: "1%" }}>
           <Col lg={2} xs={1} md={2} sm={1} />
-          <Col lg={20} xs={22} md={20} sm={22}>
+          <Col lg={18} xs={22} md={20} sm={22}>
             <a href="/">
               <svg
                 id="logo"
@@ -53,7 +53,7 @@ export const Navbar = () => {
               </Menu.Item>
             </Menu>
           </Col>
-          <Col lg={2} xs={1} md={2} sm={1} />
+          <Col lg={4} xs={1} md={2} sm={1} />
         </Row>
       </Header>
     </Layout>
