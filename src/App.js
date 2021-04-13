@@ -1,14 +1,15 @@
-import "./App.css";
+import "./App.less";
 import { Navbar } from "./Components/Navbar/Navbar";
+import { Landing } from "./Components/Landing/Landing";
+import { AboutMe } from "./Components/AboutMe/AboutMe";
 import "antd/dist/antd.dark.css";
-import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-      </Router>
+      <Navbar />
+      <Landing />
+      <AboutMe />
     </div>
   );
 }
