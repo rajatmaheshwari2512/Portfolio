@@ -27,3 +27,8 @@
     margin-left: 50%;
   }
 }
+@media screen and (max-width: 492px) {
+  .nav {
+    margin-top: -70px;
+  }
+}
