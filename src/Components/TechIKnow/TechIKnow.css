@@ -1,6 +1,12 @@
 .techiknow-heading {
   border-bottom: 2px solid rgb(168, 164, 164);
 }
+.frameworks,
+.devops,
+.database,
+.languages {
+  font-size: 16px;
+}
 .techiknow-first,
 .techiknow-second,
 .techiknow-third {
@@ -10,7 +16,11 @@
 @media screen and (max-width: 702px) {
   .techiknow-first,
   .techiknow-second,
-  .techiknow-third {
+  .techiknow-third,
+  .frameworks,
+  .devops,
+  .database,
+  .languages {
     font-size: 15px;
   }
 }
@@ -20,5 +30,14 @@
   .techiknow-third {
     font-size: 14px;
     margin-top: -10px;
+  }
+}
+@media screen and (min-width: 982px) and (max-width: 1041px) {
+  .frameworks-wrapper,
+  .devops-wrapper,
+  .database-wrapper,
+  .languages-wrapper {
+    margin-left: 22.5%;
+    width: 100vw;
   }
 }

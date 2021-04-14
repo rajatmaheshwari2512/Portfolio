@@ -23,65 +23,74 @@ export const TechIKnow = () => {
           <p className="techiknow-third">My best skills include:</p>
         </Col>
         <Col lg={3} xs={2} md={3} sm={3} />
-        <Col
-          lg={7}
-          xs={24}
-          md={24}
-          sm={24}
-          style={{ textAlign: "left", marginTop: "2%" }}
-        >
-          {/* <Row style={{ display: "flex", justifyContent: "space-around" }}>
-            <img
-              src="https://i.imgur.com/Q5Eawzt.png"
-              height="70px"
-              width="70px"
-            ></img>
-            <img
-              src="https://i.imgur.com/tHEM8wl.png"
-              height="70px"
-              width="70px"
-            ></img>
-            <img
-              src="https://i.imgur.com/lewBvSv.png"
-              height="70px"
-              width="70px"
-            ></img>
-            <img
-              src="https://i.imgur.com/CwcKlXH.png"
-              height="65px"
-              width="60px"
-            ></img>
-            <img
-              src="https://i.imgur.com/0k3mbIx.png"
-              height="70px"
-              width="100px"
-            ></img>
-          </Row>
-          <br />
-          <Row style={{ display: "flex", justifyContent: "space-around" }}>
-            <img
-              src="https://i.imgur.com/AK9gKN6.png"
-              height="80px"
-              width="70px"
-            ></img>
-            <img
-              src="https://i.imgur.com/GAHP0Lp.png"
-              height="70px"
-              width="85px"
-            ></img>
-            <img
-              src="https://i.imgur.com/ClQqsrq.png"
-              height="70px"
-              width="70px"
-            ></img>
-            <img
-              src="https://i.imgur.com/ClQqsrq.png"
-              height="70px"
-              width="70px"
-            ></img>
-          </Row> */}
-        </Col>
-        <Col lg={3} />
+        <Row>
+          <Col xs={2} md={6} sm={5} />
+          <Col
+            lg={22}
+            xs={20}
+            md={18}
+            sm={19}
+            style={{ textAlign: "left", marginTop: "1%" }}
+          >
+            <div className="frameworks-wrapper">
+              <h2
+                style={{
+                  textDecoration: "underline",
+                  textDecorationColor: "rgb(168, 164, 164)",
+                }}
+                className="frameworks-heading"
+              >
+                <b>Frameworks</b>
+              </h2>
+              <p style={{ color: "rgb(168, 164, 164)" }} className="frameworks">
+                ExpressJS ReactJS NodeJS Redux Bootstrap Ant Design
+              </p>
+            </div>
+            <div className="devops-wrapper">
+              <h2
+                style={{
+                  textDecoration: "underline",
+                  textDecorationColor: "rgb(168, 164, 164)",
+                }}
+                className="devops-heading"
+              >
+                <b>DevOps</b>
+              </h2>
+              <p style={{ color: "rgb(168, 164, 164)" }} className="devops">
+                Docker AWS GCP Git Netlify
+              </p>
+            </div>
+            <div className="database-wrapper">
+              <h2
+                style={{
+                  textDecoration: "underline",
+                  textDecorationColor: "rgb(168, 164, 164)",
+                }}
+                className="database-heading"
+              >
+                <b>Databases</b>
+              </h2>
+              <p style={{ color: "rgb(168, 164, 164)" }} className="database">
+                PostgreSQL MySQL MongoDB
+              </p>
+            </div>
+            <div className="languages-wrapper">
+              <h2
+                style={{
+                  textDecoration: "underline",
+                  textDecorationColor: "rgb(168, 164, 164)",
+                }}
+                className="languages-heading"
+              >
+                <b>Languages</b>
+              </h2>
+              <p style={{ color: "rgb(168, 164, 164)" }} className="languages">
+                C/C++ Python Java JavaScript TypeScript
+              </p>
+            </div>
+          </Col>
+          <Col xs={2} />
+        </Row>
       </Row>
     </div>
   );
