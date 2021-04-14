@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import classNames from "classnames";
 import "./Cursor.css";
+const isMobile = () => {
+  const ua = navigator.userAgent;
+  return /Android|Mobi/i.test(ua);
+};
 export const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [hidden, setHidden] = useState(false);
@@ -55,7 +59,7 @@ export const Cursor = () => {
     "cursor--hidden": hidden,
     "cursor--link-hovered": linkHovered,
   });
-
+  if (typeof navigator !== "undefined" && isMobile()) return null;
   return (
     <div
       className={cursorClasses}

@@ -2,19 +2,22 @@
   border-bottom: 2px solid rgb(168, 164, 164);
 }
 .techiknow-first,
-.techiknow-second {
+.techiknow-second,
+.techiknow-third {
   color: rgb(168, 164, 164);
   font-size: 16px;
 }
 @media screen and (max-width: 702px) {
   .techiknow-first,
-  .techiknow-second {
+  .techiknow-second,
+  .techiknow-third {
     font-size: 15px;
   }
 }
 @media screen and (max-width: 474px) {
   .techiknow-first,
-  .techiknow-second {
+  .techiknow-second,
+  .techiknow-third {
     font-size: 14px;
     margin-top: -10px;
   }

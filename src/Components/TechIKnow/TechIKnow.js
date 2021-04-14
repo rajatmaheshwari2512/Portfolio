@@ -2,7 +2,7 @@ import { Row, Col } from "antd";
 import "./TechIKnow.css";
 export const TechIKnow = () => {
   return (
-    <div className="techiknow">
+    <div id="techiknow">
       <Row style={{ marginTop: "35vh" }}>
         <Col lg={5} xs={2} md={3} sm={3} />
         <Col lg={6} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
@@ -18,8 +18,9 @@ export const TechIKnow = () => {
           </p>
           <p className="techiknow-second">
             In the process of learning new things, I have picked up quite a wide
-            variety of skills, here are some of them
+            variety of skills.
           </p>
+          <p className="techiknow-third">My best skills include:</p>
         </Col>
         <Col lg={3} xs={2} md={3} sm={3} />
         <Col

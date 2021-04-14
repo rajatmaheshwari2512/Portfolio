@@ -1,9 +1,26 @@
 import Layout, { Header } from "antd/lib/layout/layout";
 import { Col, Menu, Row } from "antd";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Navbar.css";
 
 export const Navbar = () => {
+  const homeRef = useRef(null);
+  const techRef = useRef(null);
+  const expRef = useRef(null);
+  const proRef = useRef(null);
+  const conRef = useRef(null);
+  useEffect(() => {
+    homeRef.current.props.style["borderBottom"] = "none";
+    techRef.current.props.style["borderBottom"] = "none";
+    expRef.current.props.style["borderBottom"] = "none";
+    proRef.current.props.style["borderBottom"] = "none";
+    conRef.current.props.style["borderBottom"] = "none";
+  }, []);
+  const handleHover = (e) => {
+    e.target.style.cursor = "none";
+    e.target.style.color = "white";
+    e.target.style["border-bottom"] = "none";
+  };
   return (
     <Layout>
       <Header>
@@ -39,17 +56,65 @@ export const Navbar = () => {
               }}
               className="nav"
             >
-              <Menu.Item className="link" key="home">
-                <a href="/">Home</a>
+              <Menu.Item ref={homeRef} className="link" key="home" style={{}}>
+                <a
+                  style={{ color: "white" }}
+                  onMouseOver={handleHover}
+                  href="#aboutme"
+                >
+                  About
+                </a>
               </Menu.Item>
-              <Menu.Item className="link" key="education">
-                <a href="/#education">Education</a>
+              <Menu.Item
+                ref={techRef}
+                className="link"
+                key="techiknow"
+                style={{}}
+              >
+                <a
+                  style={{ color: "white" }}
+                  onMouseOver={handleHover}
+                  href="#techiknow"
+                >
+                  Tech
+                </a>
               </Menu.Item>
-              <Menu.Item className="link" key="experience">
-                <a href="/#experience">Experience</a>
+              <Menu.Item
+                ref={expRef}
+                className="link"
+                key="experience"
+                style={{}}
+              >
+                <a
+                  style={{ color: "white" }}
+                  onMouseOver={handleHover}
+                  href="#experience"
+                >
+                  Experience
+                </a>
               </Menu.Item>
-              <Menu.Item className="link" key="contact">
-                <a href="/#contact">Contact Me</a>
+              <Menu.Item
+                ref={proRef}
+                className="link"
+                key="projects"
+                style={{}}
+              >
+                <a
+                  style={{ color: "white" }}
+                  onMouseOver={handleHover}
+                  href="#projects"
+                >
+                  Projects
+                </a>
+              </Menu.Item>
+              <Menu.Item ref={conRef} className="link" key="contact" style={{}}>
+                <a
+                  style={{ color: "white" }}
+                  onMouseOver={handleHover}
+                  href="#contact"
+                >
+                  Contact Me
+                </a>
               </Menu.Item>
             </Menu>
           </Col>
