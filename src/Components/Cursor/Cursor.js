@@ -45,6 +45,11 @@ export const Cursor = () => {
     setHidden(false);
   };
   const onMouseMove = (e) => {
+    if (e.clientY === 0) {
+      setHidden(true);
+    } else if (hidden === true && e.clientY !== 0) {
+      setHidden(false);
+    }
     setPosition({ x: e.clientX, y: e.clientY });
   };
   const onMouseDown = () => {

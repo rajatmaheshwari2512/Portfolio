@@ -1,0 +1,19 @@
+.list {
+  font-size: 16px;
+}
+@media screen and (max-width: 702px) {
+  .list {
+    font-size: 15px;
+  }
+  .role-heading {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 474px) {
+  .list {
+    font-size: 14px;
+  }
+  .role-heading {
+    font-size: 23px;
+  }
+}
