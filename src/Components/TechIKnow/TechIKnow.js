@@ -6,21 +6,28 @@ export const TechIKnow = () => {
       <Row style={{ marginTop: "35vh" }}>
         <Col lg={5} xs={2} md={3} sm={3} />
         <Col lg={6} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
-          <h1 className="techiknow-heading">
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            className="techiknow-heading"
+          >
             <b>Tech I Know</b>
           </h1>
           <br />
-          <p className="techiknow-first">
-            I love learning new things, the world of Web Development is
-            constantly changing and I'm here for every bit of that journey.
-            Applying new concepts and seeing them come to life is immensely
-            satisfying and gives me a sense of massive pride
-          </p>
-          <p className="techiknow-second">
-            In the process of learning new things, I have picked up quite a wide
-            variety of skills.
-          </p>
-          <p className="techiknow-third">My best skills include:</p>
+          <div data-aos="fade-up" data-aos-delay="100" data-aos-once>
+            <p className="techiknow-first">
+              I love learning new things, the world of Web Development is
+              constantly changing and I'm here for every bit of that journey.
+              Applying new concepts and seeing them come to life is immensely
+              satisfying and gives me a sense of massive pride
+            </p>
+            <p className="techiknow-second">
+              In the process of learning new things, I have picked up quite a
+              wide variety of skills.
+            </p>
+            <p className="techiknow-third">My best skills include:</p>
+          </div>
         </Col>
         <Col lg={3} xs={2} md={3} sm={3} />
         <Row>
@@ -32,7 +39,12 @@ export const TechIKnow = () => {
             sm={19}
             style={{ textAlign: "left", marginTop: "1%" }}
           >
-            <div className="frameworks-wrapper">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-once
+              className="frameworks-wrapper"
+            >
               <h2
                 style={{
                   textDecoration: "underline",
@@ -46,7 +58,12 @@ export const TechIKnow = () => {
                 ExpressJS ReactJS NodeJS Redux Bootstrap Ant Design
               </p>
             </div>
-            <div className="devops-wrapper">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-once
+              className="devops-wrapper"
+            >
               <h2
                 style={{
                   textDecoration: "underline",
@@ -60,7 +77,12 @@ export const TechIKnow = () => {
                 Docker AWS GCP Git Netlify
               </p>
             </div>
-            <div className="database-wrapper">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-once
+              className="database-wrapper"
+            >
               <h2
                 style={{
                   textDecoration: "underline",
@@ -74,7 +96,12 @@ export const TechIKnow = () => {
                 PostgreSQL MySQL MongoDB
               </p>
             </div>
-            <div className="languages-wrapper">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-once
+              className="languages-wrapper"
+            >
               <h2
                 style={{
                   textDecoration: "underline",

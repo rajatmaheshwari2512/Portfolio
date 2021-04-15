@@ -14,14 +14,37 @@ export const Landing = () => {
             textAlign: "left",
           }}
         >
-          <p className="welcome-hi">Hi, my name is</p>
-          <p className="name">
+          <p
+            data-aos="fade"
+            data-aos-delay="200"
+            data-aos-once
+            className="welcome-hi"
+          >
+            Hi, my name is
+          </p>
+          <p
+            data-aos="fade"
+            data-aos-delay="600"
+            data-aos-once
+            className="name"
+          >
             <b>Rajat Maheshwari.</b>
           </p>
-          <p className="short-desc">
+          <p
+            data-aos="fade"
+            data-aos-delay="1000"
+            data-aos-once
+            className="short-desc"
+          >
             <b>I build things for the Web.</b>
           </p>
-          <p className="long-desc" style={{ color: "rgb(168, 164, 164)" }}>
+          <p
+            data-aos="fade"
+            data-aos-delay="1400"
+            data-aos-once
+            className="long-desc"
+            style={{ color: "rgb(168, 164, 164)" }}
+          >
             I am a MERN Stack developer with a passion for backend development
             <br />
             specialising in NodeJS. I love building stuff and solving problems,
