@@ -11,7 +11,12 @@ export const Experience = () => {
       <Row style={{ marginTop: "37vh" }}>
         <Col lg={5} xs={2} md={3} sm={3} />
         <Col lg={6} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
-          <h1 style={{ borderBottom: "2px solid rgb(168, 164, 164)" }}>
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            style={{ borderBottom: "2px solid rgb(168, 164, 164)" }}
+          >
             <b>Experience</b>
           </h1>
         </Col>
@@ -20,6 +25,9 @@ export const Experience = () => {
         <Col lg={5} xs={2} md={3} sm={3} />
         <Col lg={5} xs={10} md={18} sm={18} style={{ textAlign: "left" }}>
           <h1
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
             style={{
               textDecoration: "underline",
               textDecorationColor: "rgb(168, 164, 164)",
@@ -43,6 +51,9 @@ export const Experience = () => {
         <Col lg={5} xs={2} md={3} sm={3} />
         <Col lg={12} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
           <h1
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
             className="role-heading"
             style={{
               textDecoration: "underline",
@@ -51,7 +62,12 @@ export const Experience = () => {
           >
             <b>Backend Developer</b>
           </h1>
-          <ul style={{ color: "rgb(168, 164, 164)" }}>
+          <ul
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            style={{ color: "rgb(168, 164, 164)" }}
+          >
             <li className="list">
               Developed the backend of the PrepiiT Quizzing Platform
             </li>

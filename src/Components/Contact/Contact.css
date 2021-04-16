@@ -1,0 +1,133 @@
+.linkedin-image {
+  height: 60px;
+  width: 70px;
+}
+.github-image {
+  height: 60px;
+  width: 60px;
+}
+.instagram-image {
+  height: 75px;
+  width: 75px;
+}
+.gmail-image {
+  height: 50px;
+  width: 80px;
+  margin-top: 5px;
+}
+.contact-container {
+  width: 15%;
+  float: left;
+}
+@media screen and (max-width: 1630px) {
+  .linkedin-image {
+    height: 50px;
+    width: 60px;
+  }
+  .github-image {
+    height: 50px;
+    width: 50px;
+  }
+  .instagram-image {
+    height: 65px;
+    width: 65px;
+  }
+  .gmail-image {
+    height: 40px;
+    width: 70px;
+    margin-top: 5px;
+  }
+  .contact-container {
+    width: 20%;
+    float: left;
+  }
+}
+@media screen and (max-width: 1105px) {
+  .linkedin-image {
+    height: 40px;
+    width: 50px;
+  }
+  .github-image {
+    height: 40px;
+    width: 40px;
+  }
+  .instagram-image {
+    height: 55px;
+    width: 55px;
+  }
+  .gmail-image {
+    height: 40px;
+    width: 57px;
+    margin-top: -3px;
+  }
+  .contact-container {
+    width: 25%;
+    float: left;
+  }
+}
+@media screen and (max-width: 993px) {
+  .contact-header {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .linkedin-image {
+    height: 40px;
+    width: 50px;
+  }
+  .github-image {
+    height: 40px;
+    width: 40px;
+  }
+  .instagram-image {
+    height: 55px;
+    width: 55px;
+  }
+  .gmail-image {
+    height: 40px;
+    width: 60px;
+    margin-top: 5px;
+  }
+  .contact-container {
+    width: 15%;
+    float: left;
+  }
+}
+@media screen and (max-width: 769px) {
+  .linkedin-image {
+    height: 40px;
+    width: 50px;
+  }
+  .github-image {
+    height: 40px;
+    width: 40px;
+  }
+  .instagram-image {
+    height: 55px;
+    width: 55px;
+  }
+  .gmail-image {
+    height: 40px;
+    width: 60px;
+  }
+  .contact-container {
+    width: 15%;
+    float: left;
+  }
+}
+@media screen and (max-width: 609px) {
+  .contact-header {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 483px) {
+  .gmail-image {
+    height: 40px;
+    width: 60px;
+    margin-top: -5px;
+  }
+  .contact-container {
+    width: 25%;
+    float: left;
+  }
+}
