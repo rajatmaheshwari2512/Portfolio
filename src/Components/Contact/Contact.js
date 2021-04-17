@@ -11,7 +11,7 @@ export const Contact = () => {
           <h1 className="contact-header">
             <Typed
               strings={[
-                "This could be the start of something great . . . . . ^1200 Let's get in touch . . . . .",
+                "This could be the start of something great! ^666 Let's get in touch. . . . .",
               ]}
               typeSpeed={40}
             />

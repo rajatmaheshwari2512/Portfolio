@@ -1,6 +1,11 @@
 import { Row, Col, Card } from "antd";
 import "./Projects.css";
 export const Projects = () => {
+  const handleHover = (e) => {
+    e.target.style.cursor = "none";
+    e.target.style.color = "rgba(255, 255, 255, 0.85)";
+    e.target.style["border-bottom"] = "none";
+  };
   return (
     <div id="projects">
       <Row style={{ marginTop: "37vh" }}>
@@ -27,14 +32,17 @@ export const Projects = () => {
             data-aos-delay="0"
             data-aos-once
             className="remote-code-card"
-            style={{ margin: "3%" }}
+            style={{ margin: "3%", height: "95%" }}
             bordered={false}
             hoverable={true}
             title="Remote Code Executor"
             extra={
               <a
+                onMouseOver={handleHover}
                 style={{ color: "white" }}
                 href="https://github.com/rajatmaheshwari2512/remote-code-exec/"
+                target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -78,12 +86,15 @@ export const Projects = () => {
             data-aos-delay="0"
             data-aos-once
             className="discord-codebot-card"
-            style={{ margin: "3%" }}
+            style={{ margin: "3%", height: "95%" }}
             bordered={false}
             hoverable={true}
             title="Discord CodeBot"
             extra={
               <a
+                onMouseOver={handleHover}
+                target="_blank"
+                rel="noreferrer"
                 style={{ color: "white" }}
                 href="https://wwww.github.com/rajatmaheshwari2512/Code-Executor-Discord"
               >
@@ -125,12 +136,15 @@ export const Projects = () => {
             data-aos-delay="0"
             data-aos-once
             className="portfolio-card"
-            style={{ margin: "3%" }}
+            style={{ margin: "3%", height: "95%" }}
             bordered={false}
             hoverable={true}
             title="Portfolio"
             extra={
               <a
+                onMouseOver={handleHover}
+                target="_blank"
+                rel="noreferrer"
                 style={{ color: "white" }}
                 href="https://github.com/rajatmaheshwari2512/Portfolio/"
               >
