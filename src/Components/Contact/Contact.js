@@ -42,7 +42,11 @@ export const Contact = () => {
               data-aos-once
               className="contact-container linkedin-wrapper"
             >
-              <a href="https://www.linkedin.com/in/rajatmaheshwari2512/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/rajatmaheshwari2512/"
+              >
                 <img
                   alt="linkedin-link"
                   src="https://i.imgur.com/MOTabiN.png"
@@ -56,7 +60,11 @@ export const Contact = () => {
               data-aos-once
               className="contact-container gmail-wrapper"
             >
-              <a href="mailto:maheshwarirajat098@gmail.com">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:maheshwarirajat098@gmail.com"
+              >
                 <img
                   alt="gmail-link"
                   src="https://seeklogo.com/images/G/gmail-logo-0240527C35-seeklogo.com.png"
@@ -70,7 +78,11 @@ export const Contact = () => {
               data-aos-once
               className="contact-container github-wrapper"
             >
-              <a href="https://www.github.com/rajatmaheshwari2512/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.github.com/rajatmaheshwari2512/"
+              >
                 <img
                   alt="github-link"
                   src="https://i.imgur.com/Gb6oMvq.png"
@@ -84,7 +96,11 @@ export const Contact = () => {
               data-aos-once
               className="contact-container instagram-wrapper"
             >
-              <a href="https://www.instagram.com/therealrajatmaheshwari/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/therealrajatmaheshwari/"
+              >
                 <img
                   alt="instagram-link"
                   src="https://i.imgur.com/CJX92Lr.png"

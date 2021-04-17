@@ -96,7 +96,7 @@ export const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "white" }}
-                href="https://wwww.github.com/rajatmaheshwari2512/Code-Executor-Discord"
+                href="https://www.github.com/rajatmaheshwari2512/Code-Executor-Discord"
               >
                 GitHub
               </a>
