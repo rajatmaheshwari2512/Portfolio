@@ -1,0 +1,19 @@
+.rce-description,
+.codebot-description,
+.portfolio-description {
+  font-size: 16px;
+}
+@media screen and (max-width: 702px) {
+  .rce-description,
+  .codebot-description,
+  .portfolio-description {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 474px) {
+  .rce-description,
+  .codebot-description,
+  .portfolio-description {
+    font-size: 15px;
+  }
+}

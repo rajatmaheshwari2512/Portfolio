@@ -38,6 +38,8 @@ export const Experience = () => {
               <a
                 style={{ color: "rgba(255, 255, 255, 0.85)" }}
                 href="https://testprepiit.ml"
+                target="_blank"
+                rel="noreferrer"
                 onMouseOver={handleHover}
               >
                 PrepiiT

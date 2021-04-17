@@ -8,6 +8,7 @@ import { Landing } from "./Components/Landing/Landing";
 import { AboutMe } from "./Components/AboutMe/AboutMe";
 import { TechIKnow } from "./Components/TechIKnow/TechIKnow";
 import { Experience } from "./Components/Experience/Experience";
+import { Projects } from "./Components/Projects/Projects";
 import { Contact } from "./Components/Contact/Contact";
 
 import "antd/dist/antd.dark.css";
@@ -27,6 +28,7 @@ function App() {
       <AboutMe />
       <TechIKnow />
       <Experience />
+      <Projects />
       <Contact />
     </div>
   );
