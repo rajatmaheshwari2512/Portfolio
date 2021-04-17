@@ -23,6 +23,9 @@ export const Projects = () => {
         <Col lg={3} xs={2} md={3} sm={3} />
         <Col lg={6} xs={20} md={18} sm={18}>
           <Card
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
             className="remote-code-card"
             style={{ margin: "3%" }}
             bordered={false}
@@ -71,6 +74,9 @@ export const Projects = () => {
         <Col lg={0} xs={2} md={3} sm={3} />
         <Col lg={6} xs={20} md={18} sm={18}>
           <Card
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
             className="discord-codebot-card"
             style={{ margin: "3%" }}
             bordered={false}
@@ -115,6 +121,9 @@ export const Projects = () => {
         <Col lg={0} xs={2} md={3} sm={3} />
         <Col lg={6} xs={20} md={18} sm={18}>
           <Card
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
             className="portfolio-card"
             style={{ margin: "3%" }}
             bordered={false}
