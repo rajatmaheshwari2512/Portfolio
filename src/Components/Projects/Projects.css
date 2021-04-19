@@ -3,6 +3,13 @@
 .portfolio-description {
   font-size: 16px;
 }
+@media screen and (width: 1024px) {
+  .rce-description,
+  .codebot-description,
+  .portfolio-description {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 702px) {
   .rce-description,
   .codebot-description,
