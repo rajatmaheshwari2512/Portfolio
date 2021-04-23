@@ -30,94 +30,92 @@ export const TechIKnow = () => {
           </div>
         </Col>
         <Col lg={3} xs={2} md={3} sm={3} />
-        <Row>
-          <Col xs={2} md={6} sm={5} />
-          <Col
-            lg={22}
-            xs={20}
-            md={18}
-            sm={19}
-            style={{ textAlign: "left", marginTop: "1%" }}
+        <Col lg={0} xs={2} md={3} sm={3} />
+        <Col
+          lg={6}
+          xs={20}
+          md={18}
+          sm={18}
+          style={{ textAlign: "left", marginTop: "1%" }}
+        >
+          <div
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            className="frameworks-wrapper"
           >
-            <div
-              data-aos="fade-up"
-              data-aos-delay="0"
-              data-aos-once
-              className="frameworks-wrapper"
+            <h2
+              style={{
+                textDecoration: "underline",
+                textDecorationColor: "rgb(168, 164, 164)",
+              }}
+              className="frameworks-heading"
             >
-              <h2
-                style={{
-                  textDecoration: "underline",
-                  textDecorationColor: "rgb(168, 164, 164)",
-                }}
-                className="frameworks-heading"
-              >
-                <b>Frameworks</b>
-              </h2>
-              <p style={{ color: "rgb(168, 164, 164)" }} className="frameworks">
-                ExpressJS ReactJS NodeJS Redux Bootstrap Ant Design
-              </p>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-delay="0"
-              data-aos-once
-              className="devops-wrapper"
+              <b>Frameworks</b>
+            </h2>
+            <p style={{ color: "rgb(168, 164, 164)" }} className="frameworks">
+              ExpressJS ReactJS NodeJS Redux Bootstrap Ant Design
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            className="devops-wrapper"
+          >
+            <h2
+              style={{
+                textDecoration: "underline",
+                textDecorationColor: "rgb(168, 164, 164)",
+              }}
+              className="devops-heading"
             >
-              <h2
-                style={{
-                  textDecoration: "underline",
-                  textDecorationColor: "rgb(168, 164, 164)",
-                }}
-                className="devops-heading"
-              >
-                <b>DevOps</b>
-              </h2>
-              <p style={{ color: "rgb(168, 164, 164)" }} className="devops">
-                Docker AWS GCP Git Netlify
-              </p>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-delay="0"
-              data-aos-once
-              className="database-wrapper"
+              <b>DevOps</b>
+            </h2>
+            <p style={{ color: "rgb(168, 164, 164)" }} className="devops">
+              Docker AWS GCP Git Netlify
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            className="database-wrapper"
+          >
+            <h2
+              style={{
+                textDecoration: "underline",
+                textDecorationColor: "rgb(168, 164, 164)",
+              }}
+              className="database-heading"
             >
-              <h2
-                style={{
-                  textDecoration: "underline",
-                  textDecorationColor: "rgb(168, 164, 164)",
-                }}
-                className="database-heading"
-              >
-                <b>Databases</b>
-              </h2>
-              <p style={{ color: "rgb(168, 164, 164)" }} className="database">
-                PostgreSQL MySQL MongoDB
-              </p>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-delay="0"
-              data-aos-once
-              className="languages-wrapper"
+              <b>Databases</b>
+            </h2>
+            <p style={{ color: "rgb(168, 164, 164)" }} className="database">
+              PostgreSQL MySQL MongoDB
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            className="languages-wrapper"
+          >
+            <h2
+              style={{
+                textDecoration: "underline",
+                textDecorationColor: "rgb(168, 164, 164)",
+              }}
+              className="languages-heading"
             >
-              <h2
-                style={{
-                  textDecoration: "underline",
-                  textDecorationColor: "rgb(168, 164, 164)",
-                }}
-                className="languages-heading"
-              >
-                <b>Languages</b>
-              </h2>
-              <p style={{ color: "rgb(168, 164, 164)" }} className="languages">
-                C/C++ Python Java JavaScript TypeScript
-              </p>
-            </div>
-          </Col>
-          <Col xs={2} />
-        </Row>
+              <b>Languages</b>
+            </h2>
+            <p style={{ color: "rgb(168, 164, 164)" }} className="languages">
+              C/C++ Python Java JavaScript TypeScript
+            </p>
+          </div>
+        </Col>
+        <Col xs={2} />
       </Row>
     </div>
   );
