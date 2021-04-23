@@ -7,17 +7,17 @@ export const Contact = () => {
     <div id="contact">
       <Row style={{ marginTop: "37vh" }}>
         <Col lg={6} xs={2} md={3} sm={3} />
-        <Col lg={14} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
+        <Col lg={12} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
           <h1 className="contact-header">
             <Typed
               strings={[
-                "This could be the start of something great! ^666Let's get in touch. . . .",
+                "This could be the start of something great! ^666Let's get in touch. . .",
               ]}
               typeSpeed={40}
             />
           </h1>
         </Col>
-        <Col lg={4} xs={2} md={3} sm={2} />
+        <Col lg={6} xs={2} md={3} sm={2} />
       </Row>
       <br />
       <br />
