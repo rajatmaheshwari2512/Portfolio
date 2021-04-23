@@ -32,7 +32,7 @@ export const TechIKnow = () => {
         <Col lg={3} xs={2} md={3} sm={3} />
         <Col lg={0} xs={2} md={3} sm={3} />
         <Col
-          lg={6}
+          lg={9}
           xs={20}
           md={18}
           sm={18}
