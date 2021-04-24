@@ -12,6 +12,7 @@ export const Experience = () => {
         <Col lg={5} xs={2} md={3} sm={3} />
         <Col lg={6} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
           <h1
+            className="experience-heading"
             data-aos="fade-up"
             data-aos-delay="0"
             data-aos-once

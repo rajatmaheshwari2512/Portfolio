@@ -13,6 +13,26 @@
   color: rgb(168, 164, 164);
   font-size: 16px;
 }
+@media screen and (min-width: 3840px) {
+  .techiknow-heading {
+    font-size: 40px;
+  }
+  .techiknow-first,
+  .techiknow-second,
+  .techiknow-third,
+  .frameworks,
+  .devops,
+  .database,
+  .languages {
+    font-size: 26px;
+  }
+  .frameworks-heading,
+  .devops-heading,
+  .database-heading,
+  .languages-heading {
+    font-size: 34px;
+  }
+}
 @media screen and (max-width: 702px) {
   .techiknow-first,
   .techiknow-second,

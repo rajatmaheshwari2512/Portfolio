@@ -22,6 +22,11 @@
 .link {
   font-size: 16px;
 }
+@media screen and (min-width: 3840px) {
+  .link {
+    font-size: 24px;
+  }
+}
 @media screen and (width: 768px) {
   .link {
     font-size: 14px;

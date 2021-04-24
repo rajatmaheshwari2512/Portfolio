@@ -12,6 +12,22 @@
   font-size: 16px;
   margin-top: -50px;
 }
+@media screen and (min-width: 3840px) {
+  .welcome-hi {
+    font-size: 30px;
+  }
+  .name {
+    font-size: 80px;
+  }
+  .short-desc {
+    font-size: 70px;
+    margin-top: -75px;
+  }
+  .long-desc {
+    font-size: 26px;
+    margin-top: -50px;
+  }
+}
 @media screen and (max-width: 1140px) {
   .welcome-hi {
     font-size: 16px;

@@ -12,6 +12,21 @@
 .about-heading {
   border-bottom: 2px solid rgb(168, 164, 164);
 }
+@media screen and (min-width: 3840px) {
+  .about-heading {
+    font-size: 40px;
+  }
+  .about-first,
+  .about-second,
+  .about-third,
+  .about-fourth {
+    font-size: 26px;
+  }
+  .image {
+    width: 50%;
+    height: 50%;
+  }
+}
 @media screen and (max-width: 1505px) {
   .image {
     width: 75%;

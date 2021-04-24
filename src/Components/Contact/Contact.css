@@ -19,6 +19,19 @@
   width: 25%;
   float: left;
 }
+@media screen and (min-width: 3840px) {
+  .contact-header {
+    font-size: 45px;
+    margin-left: 5%;
+  }
+  .links-wrapper {
+    margin-left: -10%;
+  }
+  .contact-container {
+    width: 15%;
+    float: left;
+  }
+}
 @media screen and (max-width: 1630px) {
   .linkedin-image {
     height: 50px;
