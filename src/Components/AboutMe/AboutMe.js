@@ -4,8 +4,16 @@ export const AboutMe = () => {
   return (
     <div id="aboutme">
       <Row style={{ marginTop: "37vh" }}>
-        <Col lg={5} xs={2} md={3} sm={3} />
-        <Col lg={6} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
+        <Col xxl={5} xl={5} lg={3} xs={2} md={3} sm={3} />
+        <Col
+          xxl={6}
+          xl={6}
+          lg={18}
+          xs={20}
+          md={18}
+          sm={18}
+          style={{ textAlign: "left" }}
+        >
           <h1
             data-aos="fade-up"
             data-aos-delay="0"
@@ -56,11 +64,13 @@ export const AboutMe = () => {
             you'll find me reading a book or playing video games with friends
           </p>
         </Col>
-        <Col lg={1} xs={2} />
+        <Col xxl={1} xl={1} lg={7} xs={2} />
         <Col
           data-aos="fade"
           data-aos-delay="500"
           data-aos-once
+          xxl={9}
+          xl={9}
           lg={9}
           style={{ display: "flex", alignItems: "center" }}
         >

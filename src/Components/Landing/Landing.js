@@ -4,9 +4,11 @@ export const Landing = () => {
   return (
     <div id="landing">
       <Row style={{ marginTop: "17vh" }}>
-        <Col lg={5} xs={2} md={3} sm={3} />
+        <Col xxl={5} xl={5} lg={4} xs={2} md={3} sm={3} />
         <Col
-          lg={14}
+          xxl={14}
+          xl={14}
+          lg={17}
           xs={20}
           md={18}
           sm={18}
@@ -54,7 +56,7 @@ export const Landing = () => {
             ute of Information Technology, Gwalior.
           </p>
         </Col>
-        <Col lg={5} xs={2} md={3} sm={3} />
+        <Col xxl={5} xl={5} lg={3} xs={2} md={3} sm={3} />
       </Row>
     </div>
   );

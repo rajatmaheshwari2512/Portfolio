@@ -4,8 +4,16 @@ export const TechIKnow = () => {
   return (
     <div id="techiknow">
       <Row style={{ marginTop: "35vh" }}>
-        <Col lg={5} xs={2} md={3} sm={3} />
-        <Col lg={6} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
+        <Col xxl={5} xl={5} lg={3} xs={2} md={3} sm={3} />
+        <Col
+          xxl={6}
+          xl={6}
+          lg={18}
+          xs={20}
+          md={18}
+          sm={18}
+          style={{ textAlign: "left" }}
+        >
           <h1
             data-aos="fade-up"
             data-aos-delay="0"
@@ -29,10 +37,12 @@ export const TechIKnow = () => {
             <p className="techiknow-third">My best skills include:</p>
           </div>
         </Col>
-        <Col lg={3} xs={2} md={3} sm={3} />
-        <Col lg={0} xs={2} md={3} sm={3} />
+        <Col xxl={3} xl={3} lg={3} xs={2} md={3} sm={3} />
+        <Col xxl={0} xl={0} lg={3} xs={2} md={3} sm={3} />
         <Col
-          lg={9}
+          xxl={9}
+          xl={9}
+          lg={18}
           xs={20}
           md={18}
           sm={18}

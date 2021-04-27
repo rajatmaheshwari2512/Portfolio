@@ -9,8 +9,16 @@ export const Experience = () => {
   return (
     <div id="experience">
       <Row style={{ marginTop: "37vh" }}>
-        <Col lg={5} xs={2} md={3} sm={3} />
-        <Col lg={6} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
+        <Col xxl={5} xl={5} lg={3} xs={2} md={3} sm={3} />
+        <Col
+          xxl={6}
+          xl={6}
+          lg={18}
+          xs={20}
+          md={18}
+          sm={18}
+          style={{ textAlign: "left" }}
+        >
           <h1
             className="experience-heading"
             data-aos="fade-up"
@@ -23,8 +31,16 @@ export const Experience = () => {
         </Col>
       </Row>
       <Row style={{ marginTop: "13px" }}>
-        <Col lg={5} xs={2} md={3} sm={3} />
-        <Col lg={5} xs={10} md={18} sm={18} style={{ textAlign: "left" }}>
+        <Col xxl={5} xl={5} lg={3} xs={2} md={3} sm={3} />
+        <Col
+          xxl={5}
+          xl={5}
+          lg={18}
+          xs={10}
+          md={18}
+          sm={18}
+          style={{ textAlign: "left" }}
+        >
           <h1
             data-aos="fade-up"
             data-aos-delay="0"
@@ -51,8 +67,16 @@ export const Experience = () => {
         <Col lg={4} />
       </Row>
       <Row>
-        <Col lg={5} xs={2} md={3} sm={3} />
-        <Col lg={12} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
+        <Col xxl={5} xl={5} lg={3} xs={2} md={3} sm={3} />
+        <Col
+          xxl={12}
+          xl={12}
+          lg={18}
+          xs={20}
+          md={18}
+          sm={18}
+          style={{ textAlign: "left" }}
+        >
           <h1
             data-aos="fade-up"
             data-aos-delay="0"
@@ -98,7 +122,7 @@ export const Experience = () => {
             </li>
           </ul>
         </Col>
-        <Col lg={7} xs={2} md={3} sm={3} />
+        <Col xxl={7} xl={7} lg={3} xs={2} md={3} sm={3} />
       </Row>
     </div>
   );

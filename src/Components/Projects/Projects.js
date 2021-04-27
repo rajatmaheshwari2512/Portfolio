@@ -9,8 +9,16 @@ export const Projects = () => {
   return (
     <div id="projects">
       <Row style={{ marginTop: "37vh" }}>
-        <Col lg={3} xs={2} md={3} sm={3} />
-        <Col lg={6} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
+        <Col xxl={3} xl={3} lg={3} xs={2} md={3} sm={3} />
+        <Col
+          xxl={6}
+          xl={6}
+          lg={18}
+          xs={20}
+          md={18}
+          sm={18}
+          style={{ textAlign: "left" }}
+        >
           <h1
             className="projects-heading"
             data-aos="fade-up"
@@ -26,8 +34,8 @@ export const Projects = () => {
         </Col>
       </Row>
       <Row style={{ marginTop: "13px" }}>
-        <Col lg={3} xs={2} md={3} sm={3} />
-        <Col lg={6} xs={20} md={18} sm={18}>
+        <Col xxl={3} xl={3} lg={4} xs={2} md={3} sm={3} />
+        <Col xxl={6} xl={6} lg={16} xs={20} md={18} sm={18}>
           <Card
             data-aos="fade-up"
             data-aos-delay="0"
@@ -79,9 +87,9 @@ export const Projects = () => {
             </p>
           </Card>
         </Col>
-        <Col lg={0} xs={2} md={3} sm={3} />
-        <Col lg={0} xs={2} md={3} sm={3} />
-        <Col lg={6} xs={20} md={18} sm={18}>
+        <Col xxl={0} xl={0} lg={3} xs={2} md={3} sm={3} />
+        <Col xxl={0} xl={0} lg={4} xs={2} md={3} sm={3} />
+        <Col xxl={6} xl={6} lg={16} xs={20} md={18} sm={18}>
           <Card
             data-aos="fade-up"
             data-aos-delay="0"
@@ -129,9 +137,9 @@ export const Projects = () => {
             </p>
           </Card>
         </Col>
-        <Col lg={0} xs={2} md={3} sm={3} />
-        <Col lg={0} xs={2} md={3} sm={3} />
-        <Col lg={6} xs={20} md={18} sm={18}>
+        <Col xxl={0} xl={0} lg={3} xs={2} md={3} sm={3} />
+        <Col xxl={0} xl={0} lg={4} xs={2} md={3} sm={3} />
+        <Col xxl={6} xl={6} lg={16} xs={20} md={18} sm={18}>
           <Card
             data-aos="fade-up"
             data-aos-delay="0"
@@ -180,7 +188,7 @@ export const Projects = () => {
             </p>
           </Card>
         </Col>
-        <Col lg={3} xs={2} md={3} sm={3} />
+        <Col xxl={3} xl={3} lg={3} xs={2} md={3} sm={3} />
       </Row>
     </div>
   );

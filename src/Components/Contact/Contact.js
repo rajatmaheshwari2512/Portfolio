@@ -6,8 +6,16 @@ export const Contact = () => {
   return (
     <div id="contact">
       <Row style={{ marginTop: "37vh" }}>
-        <Col lg={6} xs={2} md={3} sm={3} />
-        <Col lg={12} xs={20} md={18} sm={18} style={{ textAlign: "left" }}>
+        <Col xxl={6} xl={6} lg={3} xs={2} md={3} sm={3} />
+        <Col
+          xxl={12}
+          xl={12}
+          lg={18}
+          xs={20}
+          md={18}
+          sm={18}
+          style={{ textAlign: "left" }}
+        >
           <h1 className="contact-header">
             <Typed
               strings={[
@@ -17,15 +25,15 @@ export const Contact = () => {
             />
           </h1>
         </Col>
-        <Col lg={6} xs={2} md={3} sm={2} />
+        <Col xxl={6} xl={6} lg={3} xs={2} md={3} sm={2} />
       </Row>
       <br />
       <br />
       <br />
       <br />
       <Row>
-        <Col lg={6} xs={2} md={3} sm={3} />
-        <Col lg={12} xs={20} md={18} sm={18}>
+        <Col xxl={6} xl={6} lg={3} xs={2} md={3} sm={3} />
+        <Col xxl={12} xl={12} lg={18} xs={20} md={18} sm={18}>
           <div
             style={{
               width: "100%",
@@ -110,7 +118,7 @@ export const Contact = () => {
             </div>
           </div>
         </Col>
-        <Col lg={6} xs={2} md={3} sm={2} />
+        <Col xxl={6} xl={6} lg={3} xs={2} md={3} sm={2} />
       </Row>
     </div>
   );
