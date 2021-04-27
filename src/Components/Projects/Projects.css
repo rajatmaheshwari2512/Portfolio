@@ -18,6 +18,16 @@
     width: 80%;
   }
 }
+@media screen and (min-width: 1050px) and (max-width: 1178px) {
+  .rce-description,
+  .codebot-description,
+  .portfolio-description {
+    font-size: 11px;
+  }
+  .projects-heading {
+    font-size: 25px;
+  }
+}
 @media screen and (width: 1024px) {
   .rce-description,
   .codebot-description,

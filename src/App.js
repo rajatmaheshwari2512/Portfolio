@@ -11,8 +11,8 @@ import { Experience } from "./Components/Experience/Experience";
 import { Projects } from "./Components/Projects/Projects";
 import { Contact } from "./Components/Contact/Contact";
 
-import "antd/dist/antd.dark.css";
 import "aos/dist/aos.css";
+import "./antd.css";
 import "./App.less";
 
 function App() {

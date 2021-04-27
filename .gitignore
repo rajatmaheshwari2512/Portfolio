@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 /src/Assets
-
+/src/style.less
 # testing
 /coverage
 

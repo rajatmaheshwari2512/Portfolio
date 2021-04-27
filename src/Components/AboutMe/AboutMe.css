@@ -33,6 +33,33 @@
     height: 75%;
   }
 }
+@media screen and (min-width: 1178px) and (max-width: 1330px) {
+  .about-first,
+  .about-second,
+  .about-third,
+  .about-fourth {
+    font-size: 15px;
+  }
+  .image {
+    width: 70%;
+    height: 70%;
+  }
+}
+@media screen and (min-width: 1050px) and (max-width: 1178px) {
+  .about-first,
+  .about-second,
+  .about-third,
+  .about-fourth {
+    font-size: 11px;
+  }
+  .about-heading {
+    font-size: 25px;
+  }
+  .image {
+    width: 60%;
+    height: 60%;
+  }
+}
 @media screen and (max-width: 993px) {
   .image {
     width: 25%;
