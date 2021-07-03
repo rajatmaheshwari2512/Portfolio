@@ -1,4 +1,10 @@
 import { Row, Col } from "antd";
+import {
+  LinkedinFilled,
+  GithubFilled,
+  InstagramOutlined,
+  MailFilled,
+} from "@ant-design/icons";
 import Typed from "react-typed";
 import "./Contact.css";
 import "react-typed/dist/animatedCursor.css";
@@ -55,11 +61,10 @@ export const Contact = () => {
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/rajatmaheshwari2512/"
               >
-                <img
-                  alt="linkedin-link"
-                  src="https://i.imgur.com/MOTabiN.png"
+                <LinkedinFilled
                   className="linkedin-image"
-                ></img>
+                  style={{ color: "white" }}
+                />
               </a>
             </div>
             <div
@@ -73,11 +78,10 @@ export const Contact = () => {
                 rel="noreferrer"
                 href="mailto:maheshwarirajat098@gmail.com"
               >
-                <img
-                  alt="gmail-link"
-                  src="https://seeklogo.com/images/G/gmail-logo-0240527C35-seeklogo.com.png"
+                <MailFilled
                   className="gmail-image"
-                ></img>
+                  style={{ color: "white" }}
+                />
               </a>
             </div>
             <div
@@ -91,11 +95,10 @@ export const Contact = () => {
                 rel="noreferrer"
                 href="https://www.github.com/rajatmaheshwari2512/"
               >
-                <img
-                  alt="github-link"
-                  src="https://i.imgur.com/Gb6oMvq.png"
+                <GithubFilled
                   className="github-image"
-                ></img>
+                  style={{ color: "white" }}
+                />
               </a>
             </div>
             <div
@@ -109,11 +112,10 @@ export const Contact = () => {
                 rel="noreferrer"
                 href="https://www.instagram.com/therealrajatmaheshwari/"
               >
-                <img
-                  alt="instagram-link"
-                  src="https://i.imgur.com/CJX92Lr.png"
+                <InstagramOutlined
                   className="instagram-image"
-                ></img>
+                  style={{ color: "white" }}
+                />
               </a>
             </div>
           </div>

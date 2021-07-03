@@ -1,18 +1,14 @@
 .linkedin-image {
-  height: 60px;
-  width: 70px;
+  font-size: 60px;
 }
 .github-image {
-  height: 60px;
-  width: 60px;
+  font-size: 60px;
 }
 .instagram-image {
-  height: 75px;
-  width: 75px;
+  font-size: 70px;
 }
 .gmail-image {
-  height: 50px;
-  width: 80px;
+  font-size: 65px;
   margin-top: 5px;
 }
 .contact-container {
@@ -34,20 +30,16 @@
 }
 @media screen and (max-width: 1630px) {
   .linkedin-image {
-    height: 50px;
-    width: 60px;
+    font-size: 50px;
   }
   .github-image {
-    height: 50px;
-    width: 50px;
+    font-size: 50px;
   }
   .instagram-image {
-    height: 65px;
-    width: 65px;
+    font-size: 65px;
   }
   .gmail-image {
-    height: 40px;
-    width: 70px;
+    font-size: 55px;
     margin-top: 5px;
   }
   .contact-container {
@@ -57,20 +49,16 @@
 }
 @media screen and (max-width: 1105px) {
   .linkedin-image {
-    height: 40px;
-    width: 50px;
+    font-size: 40px;
   }
   .github-image {
-    height: 40px;
-    width: 40px;
+    font-size: 40px;
   }
   .instagram-image {
-    height: 55px;
-    width: 55px;
+    font-size: 55px;
   }
   .gmail-image {
-    height: 40px;
-    width: 57px;
+    font-size: 40px;
     margin-top: -3px;
   }
   .contact-container {
@@ -90,20 +78,16 @@
 }
 @media screen and (max-width: 970px) {
   .linkedin-image {
-    height: 40px;
-    width: 50px;
+    font-size: 40px;
   }
   .github-image {
-    height: 40px;
-    width: 40px;
+    font-size: 40px;
   }
   .instagram-image {
-    height: 55px;
-    width: 55px;
+    font-size: 55px;
   }
   .gmail-image {
-    height: 40px;
-    width: 60px;
+    font-size: 40px;
     margin-top: 5px;
   }
   .contact-container {
@@ -113,20 +97,16 @@
 }
 @media screen and (max-width: 769px) {
   .linkedin-image {
-    height: 40px;
-    width: 50px;
+    font-size: 40px;
   }
   .github-image {
-    height: 40px;
-    width: 40px;
+    font-size: 40px;
   }
   .instagram-image {
-    height: 55px;
-    width: 55px;
+    font-size: 55px;
   }
   .gmail-image {
-    height: 40px;
-    width: 60px;
+    font-size: 40px;
   }
   .contact-container {
     width: 25%;
@@ -137,12 +117,14 @@
   .contact-header {
     font-size: 20px;
   }
+  .instagram-image {
+    font-size: 45px;
+  }
 }
 @media screen and (max-width: 483px) {
   .gmail-image {
-    height: 40px;
-    width: 60px;
-    margin-top: -5px;
+    font-size: 40px;
+    margin-top: 0px;
   }
   .contact-container {
     width: 25%;

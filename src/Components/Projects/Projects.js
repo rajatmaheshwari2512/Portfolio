@@ -42,6 +42,7 @@ export const Projects = () => {
             data-aos-once
             className="remote-code-card"
             style={{ margin: "3%", height: "95%" }}
+            bodyStyle={{ backgroundColor: "#141414" }}
             bordered={false}
             hoverable={true}
             title="Remote Code Executor"
@@ -59,7 +60,11 @@ export const Projects = () => {
           >
             <p
               className="rce-description"
-              style={{ textAlign: "left", color: "rgb(168, 164, 164)" }}
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+              }}
             >
               A Remote Code Executor powered by NodeJS and Docker, a new
               container is built for every new code submitted on the server,
@@ -69,7 +74,11 @@ export const Projects = () => {
             </p>
             <p
               className="rce-description"
-              style={{ textAlign: "left", color: "rgb(168, 164, 164)" }}
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+              }}
             >
               Deployed on AWS on an EC2 instance, used Cloudflare as a DNS
               provider for HTTPS support, implemented SwaggerUI for API
@@ -80,6 +89,7 @@ export const Projects = () => {
               style={{
                 textAlign: "left",
                 color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
                 marginTop: "27px",
               }}
             >
@@ -96,6 +106,7 @@ export const Projects = () => {
             data-aos-once
             className="discord-codebot-card"
             style={{ margin: "3%", height: "95%" }}
+            bodyStyle={{ backgroundColor: "#141414" }}
             bordered={false}
             hoverable={true}
             title="Discord CodeBot"
@@ -113,7 +124,11 @@ export const Projects = () => {
           >
             <p
               className="codebot-description"
-              style={{ textAlign: "left", color: "rgb(168, 164, 164)" }}
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+              }}
             >
               As proof of concept of extending the existing functionality of the
               Remote Code Executor, I decided to make a Discord bot powered by
@@ -130,6 +145,7 @@ export const Projects = () => {
               style={{
                 textAlign: "left",
                 color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
                 marginTop: "20px",
               }}
             >
@@ -146,6 +162,7 @@ export const Projects = () => {
             data-aos-once
             className="portfolio-card"
             style={{ margin: "3%", height: "95%" }}
+            bodyStyle={{ backgroundColor: "#141414" }}
             bordered={false}
             hoverable={true}
             title="Portfolio"
@@ -163,7 +180,11 @@ export const Projects = () => {
           >
             <p
               className="portfolio-description"
-              style={{ textAlign: "left", color: "rgb(168, 164, 164)" }}
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+              }}
             >
               This very portfolio website! You're here right now.
               Portfolioception! Built in under a week as a self learning project
@@ -172,7 +193,11 @@ export const Projects = () => {
             </p>
             <p
               className="portfolio-description"
-              style={{ textAlign: "left", color: "rgb(168, 164, 164)" }}
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+              }}
             >
               Broke Up code in multiple components in the "true" React way so
               that individual aspects of the site don't affect the others. Wrote
@@ -182,7 +207,11 @@ export const Projects = () => {
             <br />
             <p
               className="portfolio-description"
-              style={{ textAlign: "left", color: "rgb(168, 164, 164)" }}
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+              }}
             >
               ReactJS Ant Design
             </p>

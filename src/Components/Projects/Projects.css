@@ -3,6 +3,13 @@
 .portfolio-description {
   font-size: 16px;
 }
+.ant-card-head-title {
+  background-color: #141414;
+}
+.ant-card-extra {
+  border: 2px solid #141414;
+  background-color: #141414;
+}
 @media screen and (min-width: 3840px) {
   .projects-heading {
     font-size: 40px;
