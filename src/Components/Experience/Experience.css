@@ -5,7 +5,9 @@
   .experience-heading {
     font-size: 40px;
   }
-  .prepiit-heading {
+  .prepiit-heading,
+  .fossee-heading,
+  .imocha-heading {
     font-size: 34px;
   }
   .role-heading {
@@ -19,7 +21,9 @@
   .experience-heading {
     font-size: 25px;
   }
-  .prepiit-heading {
+  .prepiit-heading,
+  .fossee-heading,
+  .imocha-heading {
     font-size: 20px;
   }
   .role-heading {
