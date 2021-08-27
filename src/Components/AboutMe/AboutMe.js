@@ -40,8 +40,8 @@ export const AboutMe = () => {
           >
             I am a Full Stack Developer, I really enjoy building new things and
             overcoming new challenges. I'm always eager to learn new concepts
-            and apply them in my projects Currently, I'm building a Quizzing
-            Platform for the PrepiiT Coaching Institute
+            and apply them in my projects Currently, I'm building a React based
+            Assessment Platform for iMocha
           </p>
           <p
             data-aos="fade-up"
@@ -52,7 +52,7 @@ export const AboutMe = () => {
             I am a dedicated team player, and I get along well with any team
             environment. I do well under pressure which I feel makes me a good
             addition to any team. I also have strong command over Data
-            Structures and Algorithms.
+            Structures and Algorithms
           </p>
           <p
             data-aos="fade-up"
