@@ -321,6 +321,18 @@ export const Experience = () => {
               Schematic Editor in various places without the need to add the
               entire page.
             </li>
+            <li className="list">
+              Press{" "}
+              <a
+                style={{ color: "rgb(168, 164, 164)" }}
+                href="https://drive.google.com/file/d/14oGikIo7GG-gcybT_ee_McOl1pjUvAGO/view?usp=sharing"
+              >
+                <u>
+                  <b>me</b>
+                </u>
+              </a>{" "}
+              to read a detailed report of the project
+            </li>
           </ul>
         </Col>
         <Col xxl={7} xl={7} lg={3} xs={2} md={3} sm={3} />
