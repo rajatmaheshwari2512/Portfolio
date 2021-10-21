@@ -24,6 +24,11 @@ export const Contact = () => {
         >
           <h1 className="contact-header">
             <Typed
+              style={{
+                hyphens: "auto",
+                overflowWrap: "break-word",
+                wordWrap: "break-word",
+              }}
               strings={[
                 "This could be the start of something great! ^666Let's get in touch. . .",
               ]}
