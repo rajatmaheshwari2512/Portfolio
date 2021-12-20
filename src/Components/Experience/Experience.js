@@ -337,6 +337,93 @@ export const Experience = () => {
         </Col>
         <Col xxl={7} xl={7} lg={3} xs={2} md={3} sm={3} />
       </Row>
+      <Row style={{ marginTop: "50px" }}>
+        <Col xxl={5} xl={5} lg={3} xs={2} md={3} sm={3} />
+        <Col
+          xxl={5}
+          xl={5}
+          lg={18}
+          xs={18}
+          md={18}
+          sm={18}
+          style={{ textAlign: "left" }}
+        >
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            style={{
+              textDecoration: "underline",
+              textDecorationColor: "rgb(168, 164, 164)",
+            }}
+            className="fossee-heading"
+          >
+            <b>
+              <a
+                style={{ color: "rgba(255, 255, 255, 0.85)" }}
+                href="https://github.com/frg-fossee/eSim-Cloud"
+                target="_blank"
+                rel="noreferrer"
+                onMouseOver={handleHover}
+              >
+                Horizon Technologies
+              </a>
+            </b>
+          </h1>
+        </Col>
+        <Col lg={4} />
+      </Row>
+      <Row>
+        <Col xxl={5} xl={5} lg={3} xs={2} md={3} sm={3} />
+        <Col
+          xxl={12}
+          xl={12}
+          lg={18}
+          xs={20}
+          md={18}
+          sm={18}
+          style={{ textAlign: "left" }}
+        >
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            className="role-heading"
+            style={{
+              textDecoration: "underline",
+              textDecorationColor: "rgb(168, 164, 164)",
+            }}
+          >
+            <b>Front-End Developer and Maintainer</b>
+          </h1>
+          <ul
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            style={{ color: "rgb(168, 164, 164)" }}
+          >
+            <li className="list">
+              Worked as a Frontend Stack Developer, at Spinup, Horizon
+              Technologies
+            </li>
+            <li className="list">
+              Spinup is an Open Source AWS RDS alternative
+            </li>
+            <li className="list">
+              Users can register on GitHub, select a type of database, and use
+              it according to their needs
+            </li>
+            <li className="list">Built using React, Redux, and Ant Design</li>
+            <li className="list">
+              Used Axios for API Calls to create, delete and update databases
+            </li>
+            <li className="list">
+              A Profile page for customising each cluster is also implemented
+            </li>
+          </ul>
+        </Col>
+        <Col xxl={7} xl={7} lg={3} xs={2} md={3} sm={3} />
+      </Row>
     </div>
   );
 };
