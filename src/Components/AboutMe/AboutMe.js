@@ -29,7 +29,7 @@ export const AboutMe = () => {
             data-aos-once
             className="about-first"
           >
-            I am a Second Year Student from the Indian Institute of Information
+            I am a Third Year Student from the Indian Institute of Information
             Technology, Gwalior, pursuing my B.Tech in Information Technology
           </p>
           <p
@@ -40,8 +40,8 @@ export const AboutMe = () => {
           >
             I am a Full Stack Developer, I really enjoy building new things and
             overcoming new challenges. I'm always eager to learn new concepts
-            and apply them in my projects Currently, I'm building a React based
-            Assessment Platform for iMocha
+            and apply them in my projects Currently I am actively looking for
+            new internship opportunities
           </p>
           <p
             data-aos="fade-up"
