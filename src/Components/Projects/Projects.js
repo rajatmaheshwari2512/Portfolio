@@ -139,7 +139,6 @@ export const Projects = () => {
               server which returns the output. The bot then tags the user who
               requested the output and prints the output/error
             </p>
-
             <p
               className="codebot-description"
               style={{
@@ -218,6 +217,139 @@ export const Projects = () => {
           </Card>
         </Col>
         <Col xxl={3} xl={3} lg={3} xs={2} md={3} sm={3} />
+      </Row>
+      <Row style={{ marginTop: "13px" }}>
+        <Col xxl={6} xl={6} lg={4} xs={2} md={3} sm={3} />
+        <Col xxl={6} xl={6} lg={16} xs={20} md={18} sm={18}>
+          <Card
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            className="chatting-app-card"
+            style={{ margin: "3%", height: "95%" }}
+            bodyStyle={{ backgroundColor: "#141414" }}
+            bordered={false}
+            hoverable={true}
+            title="Real Time Chatting App"
+            extra={
+              <a
+                onMouseOver={handleHover}
+                style={{ color: "white" }}
+                href="https://github.com/rajatmaheshwari2512/chatting-app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+            }
+          >
+            <p
+              className="chatting-description"
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+              }}
+            >
+              A real-time chatting application built in the MERN Stack along
+              with SocketIO for real-time functionality. Similar to WhatsApp,
+              the app allows users to send messages to each other and also
+              create rooms, and add other users to the room. Users being added
+              to the room have their group list updated in real-time using the
+              same socket events. New messages in a group causes the group color
+              to be updated to green for users not in it currently.
+            </p>
+            <p
+              className="chatting-description"
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+              }}
+            >
+              Deployed on Netlify, Heroku using Mongo Atlas as a Database
+            </p>
+            <p
+              className="chatting-description"
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+                marginTop: "27px",
+              }}
+            >
+              ReactJS NodeJS ExpressJS MongoDB SocketIO
+            </p>
+          </Card>
+        </Col>
+        <Col xxl={0} xl={0} lg={3} xs={2} md={3} sm={3} />
+        <Col xxl={0} xl={0} lg={4} xs={2} md={3} sm={3} />
+        <Col xxl={6} xl={6} lg={16} xs={20} md={18} sm={18}>
+          <Card
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-once
+            className="discord-musicbot-card"
+            style={{ margin: "3%", height: "95%" }}
+            bodyStyle={{ backgroundColor: "#141414" }}
+            bordered={false}
+            hoverable={true}
+            title="Discord MusicBot"
+            extra={
+              <a
+                onMouseOver={handleHover}
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "white" }}
+                href="https://discord.com/api/oauth2/authorize?client_id=889036478972321874&permissions=8&scope=bot"
+              >
+                Add Me!
+              </a>
+            }
+          >
+            <p
+              className="musicbot-description"
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+              }}
+            >
+              After the shutdown of major music player bots like Groovy on
+              Discord, I created this Discord bot as a replacement to other
+              popular bots. You can request a song play using the !play command,
+              and you can also request lyrics of the current playing song. I
+              have used Cheerio as a web scraper to fetch lyrics from the first
+              match on a Google search.
+            </p>
+            <p
+              className="musicbot-description"
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+              }}
+            >
+              As an added easter egg, private messaging the bot causes it to act
+              like a chat bot, have fun asking the bot questions and receiving
+              weirdly diplomatic answers!
+            </p>
+            <p
+              className="musicbot-description"
+              style={{
+                textAlign: "left",
+                color: "rgb(168, 164, 164)",
+                backgroundColor: "#141414",
+                marginTop: "20px",
+              }}
+            >
+              DiscordJS NodeJS Cheerio
+            </p>
+          </Card>
+        </Col>
+        <Col xxl={0} xl={0} lg={3} xs={2} md={3} sm={3} />
+        {/* <Col xxl={0} xl={0} lg={4} xs={2} md={3} sm={3} /> */}
+        <Col xxl={6} xl={6} lg={3} xs={2} md={3} sm={3} />
       </Row>
     </div>
   );

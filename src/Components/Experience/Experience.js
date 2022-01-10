@@ -258,7 +258,7 @@ export const Experience = () => {
                 rel="noreferrer"
                 onMouseOver={handleHover}
               >
-                FOSSEE, IIT Powai
+                FOSSEE, IIT Bombay
               </a>
             </b>
           </h1>
@@ -295,7 +295,7 @@ export const Experience = () => {
             style={{ color: "rgb(168, 164, 164)" }}
           >
             <li className="list">
-              Worked as a Full Stack Developer, at FOSSEE, IIT Powai
+              Worked as a Full Stack Developer, at FOSSEE, IIT Bombay
             </li>
             <li className="list">
               Developed a Version Control System, for users to save multiple
