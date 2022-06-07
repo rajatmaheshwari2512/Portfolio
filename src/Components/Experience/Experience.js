@@ -1,11 +1,11 @@
 import { Row, Col } from "antd";
+
+import { ExperienceContent } from "../../Content/Experience";
+
+import { IndividualExperience } from "../IndividualExperience/IndividualExperience";
+
 import "./Experience.css";
 export const Experience = () => {
-  const handleHover = (e) => {
-    e.target.style.cursor = "none";
-    e.target.style.color = "rgba(255, 255, 255, 0.85)";
-    e.target.style["border-bottom"] = "none";
-  };
   return (
     <div id="experience">
       <Row style={{ marginTop: "37vh" }}>
@@ -30,7 +30,20 @@ export const Experience = () => {
           </h1>
         </Col>
       </Row>
-      <Row style={{ marginTop: "13px" }}>
+      {ExperienceContent.map((experience, index) => {
+        return (
+          <IndividualExperience
+            key={`${index}-experience`}
+            marginTop={index === 0 ? "13px" : "50px"}
+            company={experience.company}
+            link={experience.link}
+            role={experience.role}
+            brief={experience.brief}
+            report={experience.report ? experience.report : null}
+          />
+        );
+      })}
+      {/* <Row style={{ marginTop: "13px" }}>
         <Col xxl={5} xl={5} lg={3} xs={2} md={3} sm={3} />
         <Col
           xxl={5}
@@ -212,7 +225,7 @@ export const Experience = () => {
             <li className="list">
               Buttons for running and stopping the service without touching the
               terminal is also implemented, although the user can use the
-              terminal is he wants to
+              terminal if he wants to
             </li>
             <li className="list">
               On submission, the server will zip the submission, and push it to
@@ -423,7 +436,7 @@ export const Experience = () => {
           </ul>
         </Col>
         <Col xxl={7} xl={7} lg={3} xs={2} md={3} sm={3} />
-      </Row>
+      </Row> */}
     </div>
   );
 };
