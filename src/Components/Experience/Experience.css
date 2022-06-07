@@ -36,6 +36,12 @@
   }
 }
 @media screen and (max-width: 702px) {
+  .prepiit-heading,
+  .fossee-heading,
+  .imocha-heading,
+  .horizon-heading{
+    white-space: nowrap;
+  }
   .list {
     font-size: 15px;
   }
