@@ -79,7 +79,7 @@ export const AboutMe = () => {
               <div className="img-container">
                 <img
                   className="image"
-                  src="https://i.imgur.com/Tcot1pl.jpg"
+                  src="https://i.imgur.com/XYVKQr2.jpg"
                   alt="MyFace"
                 />
               </div>
