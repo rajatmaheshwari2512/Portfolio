@@ -18,8 +18,8 @@ export const ExperienceContent = [
     link: "https://imocha.com",
     role: "MVP & POC Intern",
     brief: [
-      "Working at iMocha as a Full Stack Development intern",
-      "Working on extending the current functionality of the skill assessment platform of iMocha",
+      "Worked at iMocha as a Full Stack Development intern",
+      "Worked on extending the current functionality of the skill assessment platform of iMocha",
       "Used a browser based IDE, Eclipse Theia, to create a development skill assessment POC project",
       "Users can login, with a particular test link, the details of the test, which are set by the admin are then loaded in.",
       "A Docker container is created for the user to attempt his assessment in. A folder structure is displayed, the user can create as many files and folders as he needs.",
@@ -54,6 +54,20 @@ export const ExperienceContent = [
       "Built using React, Redux, and Ant Design",
       "Used Axios for API Calls to create, delete and update databases",
       "A Profile page for customising each cluster is also implemented",
+    ],
+  },
+  {
+    company: "AI4Bharat, IIT Madras",
+    link: "https://ai4bharat.org",
+    role: "Front-End Developer",
+    brief: [
+      "Worked as a Frontend Developer, at AI4Bharat, IIT Madras",
+      "AI4Bhārat is a non-profit, open-source community of engineers, domain experts, policy makers, and academicians collaborating to build AI solutions to solve India’s problems",
+      "Refactored an existing project (Subplayer.js), to support various new features like direct translation from English typing to Hindi, and a new feature to support multiple vernacular languages",
+      "Built using React, Redux, and Ant Design",
+      "Worked on an in-house project Shoonya, that has functionalities to undertake a project, for collecting or annotating data",
+      "Created a workflow to create Annotation Projects with dynamic forms wherein progressive inputs change according to the previous selections",
+      "Worked on displaying the Projects page, and add new members to the project as well",
     ],
   },
 ];

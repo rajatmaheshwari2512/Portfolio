@@ -8,7 +8,8 @@
   .prepiit-heading,
   .fossee-heading,
   .imocha-heading,
-  .horizon-heading {
+  .horizon-heading,
+  .ai4bharat-heading {
     font-size: 34px;
   }
   .role-heading {
@@ -25,7 +26,8 @@
   .prepiit-heading,
   .fossee-heading,
   .imocha-heading,
-  .horizon-heading {
+  .horizon-heading,
+  .ai4bharat-heading {
     font-size: 20px;
   }
   .role-heading {
@@ -39,7 +41,8 @@
   .prepiit-heading,
   .fossee-heading,
   .imocha-heading,
-  .horizon-heading{
+  .horizon-heading,
+  .ai4bharat-heading {
     white-space: nowrap;
   }
   .list {
