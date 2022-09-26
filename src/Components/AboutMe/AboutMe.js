@@ -1,5 +1,6 @@
 import { Row, Col } from "antd";
 import "./AboutMe.css";
+import MyFace from "../../Content/MyFace.jpg";
 export const AboutMe = () => {
   return (
     <div id="aboutme">
@@ -77,11 +78,7 @@ export const AboutMe = () => {
           <section className="main">
             <div className="container">
               <div className="img-container">
-                <img
-                  className="image"
-                  src="https://i.imgur.com/XYVKQr2.jpg"
-                  alt="MyFace"
-                />
+                <img className="image" src={MyFace} alt="MyFace" />
               </div>
             </div>
           </section>
