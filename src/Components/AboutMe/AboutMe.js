@@ -30,7 +30,7 @@ export const AboutMe = () => {
             data-aos-once
             className="about-first"
           >
-            I am a Third Year Student from the Indian Institute of Information
+            I am a Fourth Year Student from the Indian Institute of Information
             Technology, Gwalior, pursuing my B.Tech in Information Technology
           </p>
           <p
