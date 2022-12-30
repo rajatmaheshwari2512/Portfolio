@@ -7,6 +7,7 @@ export const IndividualExperience = ({
   role,
   brief,
   report = null,
+  youtubeLink = null,
 }) => {
   const handleHover = (e) => {
     e.target.style.cursor = "none";
@@ -93,7 +94,12 @@ export const IndividualExperience = ({
             {report && (
               <li className="list">
                 Press{" "}
-                <a style={{ color: "rgb(168, 164, 164)" }} href={report}>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "rgb(168, 164, 164)" }}
+                  href={report}
+                >
                   {" "}
                   <u>
                     {" "}
@@ -101,6 +107,23 @@ export const IndividualExperience = ({
                   </u>{" "}
                 </a>{" "}
                 to read a detailed report of the project
+              </li>
+            )}
+            {youtubeLink && (
+              <li className="list">
+                Checkout my work
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "rgb(168, 164, 164)" }}
+                  href={youtubeLink}
+                >
+                  {" "}
+                  <u>
+                    {" "}
+                    <b>here</b>{" "}
+                  </u>{" "}
+                </a>{" "}
               </li>
             )}
           </ul>

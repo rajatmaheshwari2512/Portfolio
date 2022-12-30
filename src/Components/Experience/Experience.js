@@ -40,6 +40,7 @@ export const Experience = () => {
             role={experience.role}
             brief={experience.brief}
             report={experience.report ? experience.report : null}
+            youtubeLink={experience.youtubeLink ? experience.youtubeLink : null}
           />
         );
       })}
