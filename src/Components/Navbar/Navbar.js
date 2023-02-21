@@ -137,7 +137,7 @@ export const Navbar = () => {
                   onMouseOver={handleHover}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://drive.google.com/file/d/1ogUMzxeKQPKOmZX7UkdFOl2p8Ih9CeEC/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1uFmVetw-KKIgxQxVDIa1l8f4vpxT3ULw/view?usp=sharing"
                 >
                   Resume
                 </a>
