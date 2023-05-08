@@ -126,7 +126,7 @@ export const Navbar = () => {
                   onMouseOver={handleHover}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://blogs.rajatmaheshwari.tech"
+                  href="https://blogs.rajatmaheshwari.xyz"
                 >
                   Blogs
                 </a>
