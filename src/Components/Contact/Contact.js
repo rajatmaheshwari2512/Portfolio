@@ -115,7 +115,7 @@ export const Contact = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.instagram.com/therealrajatmaheshwari/"
+                href="https://www.instagram.com/rajat.maheshwari2512/"
               >
                 <InstagramOutlined
                   className="instagram-image"
