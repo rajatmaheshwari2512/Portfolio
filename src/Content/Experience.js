@@ -8,7 +8,7 @@ export const ExperienceContent = [
       'Utilized ReactJS, MaterialUI, .NET Core 7, and Microsoft SQL Serverto create an intuitive and informative dashboard',
       'Reduced system latency from over 8 seconds to less than 250 milliseconds',
       'Implemented a feature providing patching operators with comprehensive timelines of server states, facilitating precise issue identification',
-      'Used Axios for API Calls to create, delete and update databases',
+      'Used Tanstack Query to implement polling for latest information',
       'Miscellaneously, developed a bash script for automating Vite application deployment on Kubernetes, streamlining the deployment process'
     ]
   },
