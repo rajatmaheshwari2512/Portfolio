@@ -47,10 +47,10 @@ export const Landing = () => {
             className="long-desc"
             style={{ color: "rgb(168, 164, 164)" }}
           >
-            I am a MERN Stack developer with a passion for backend development
+            I am a full stack developer with a passion for backend development
             <br />
             specialising in NodeJS. I love building stuff and solving problems,
-            <br /> and I'm currently pursing Information Technology from the
+            <br /> and I'm a graduate in Information Technology from the
             Indian Instit-
             <br />
             ute of Information Technology, Gwalior.
