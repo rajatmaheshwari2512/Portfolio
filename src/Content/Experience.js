@@ -1,5 +1,18 @@
 export const ExperienceContent = [
   {
+    company: 'Mercari, Inc.',
+    link: 'https://www.mercari.com/',
+    role: 'Frontend Intern',
+    brief: [
+      'Implemented item, buyer and seller coupons on the Mercari website affecting over 5 million transactions in one month',
+      'Buyer and seller coupons allow buyers to see and sellers to add coupons on items',
+      'Item coupons add coupons on difficult to sell items thus allowing them to be sold quickly',
+      'Refactored existing code to optimise item rendering and implemented DRY policy to implement coupons thus keeping the codebase minimally affected',
+      'Implemented on the fly switchable PR environments and API PR endpoints allowing for a smoother development experience',
+      'Worked extensively using NextJS and Context API'
+    ]
+  },
+  {
     company: 'D.E. Shaw India',
     link: 'https://www.deshawindia.com/',
     role: 'Systems Intern',
