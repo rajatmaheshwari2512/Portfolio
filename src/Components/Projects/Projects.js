@@ -164,55 +164,56 @@ export const Projects = () => {
             bodyStyle={{ backgroundColor: "#141414" }}
             bordered={false}
             hoverable={true}
-            title="Portfolio"
+            title="CodeFiddle"
             extra={
               <a
                 onMouseOver={handleHover}
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "white" }}
-                href="https://github.com/rajatmaheshwari2512/Portfolio/"
+                href="https://github.com/rajatmaheshwari2512/CodeFiddle/"
               >
                 GitHub
               </a>
             }
           >
             <p
-              className="portfolio-description"
+              className="codefiddle-description"
               style={{
                 textAlign: "left",
                 color: "rgb(168, 164, 164)",
                 backgroundColor: "#141414",
               }}
             >
-              This very portfolio website! You're here right now.
-              Portfolioception! Built in under a week as a self learning project
-              to learn more about Ant Design and React Hooks. Implemented this
-              project with ReactJS and AntD and deployed it on Netlify.
+              A complete Visual Studio code experience in the browser,
+              built with Docker, Node, React and Websockets. No expensive
+              libraries, no Socket.IO. Handled everything from initiating
+              connections to upgrading them
             </p>
             <p
-              className="portfolio-description"
+              className="codefiddle-description"
               style={{
                 textAlign: "left",
                 color: "rgb(168, 164, 164)",
                 backgroundColor: "#141414",
               }}
             >
-              Broke Up code in multiple components in the "true" React way so
-              that individual aspects of the site don't affect the others. Wrote
-              media queries to make sure the site looks good in all devices
+              The user is also given a terminal, which directly interacts with
+              a dedicated docker container spun up for the user. Reccursively
+              hydrated folder tree so that items can be created and accessed
+              at any arbitrary depth
             </p>
             <br />
             <br />
             <p
-              className="portfolio-description"
+              className="codefiddle-description"
               style={{
                 textAlign: "left",
                 color: "rgb(168, 164, 164)",
                 backgroundColor: "#141414",
               }}
             >
-              ReactJS Ant Design
+              ReactJS Websockets Docker NodeJS
             </p>
           </Card>
         </Col>
