@@ -1,5 +1,21 @@
 export const ExperienceContent = [
   {
+    company: 'D.E. Shaw India',
+    link: 'https://www.deshawindia.com/',
+    role: 'Member Technical',
+    brief: [
+      'Redesigned and overhauled a server maintenance visualization tool, rebuilding it in React and .NET, reducing latency from 8s to 125ms and enabling operators to identify and resolve failures quickly',
+      'Orchestrated a seamless migration to GitHub Actions, automating UI deployments on Windows Kubernetes nodes that slashed deployment times by 80% and eliminated all manual script errors',
+      'Spearheaded the design and development of advanced visualization features, including task sequence timelines, failure severity indicators, and health check drilldowns, using reusable React components, streamlining operator workflows and reducing log analysis effort by over 60%',
+      'Orchestrated a role-based approval system for alert rule creation within the observability platform, cutting alert adoption downtime over 50% and enabling over 50 engineers to create rules',
+      'Implemented frontend performance optimizations, including optimistic privilege prefetching and rule metadata caching, streamlining complex observability workflows and reducing page load times from 2s to 90ms',
+      'Owner & maintainer of frontend codebase in-house observability tool - responsible for feature development, bug triage, on-call troubleshooting, code reviews, and documentation to accelerate onboarding of new engineers',
+      'Fixed and automated database migrations, enabling programmatic schema updates and eliminating manual errors. Established .NET security policies (CORS, CIRF) and embedded them into internal scaffolding templates, ensuring firm-wide security consistency',
+      'Modernised data delivery by developing .NET RESTful APIs for Windows 11 rollout dashboards, eliminating GraphQL bottlenecks and increasing refresh speed by 24x allowing for near realtime data availability',
+      'Architected high-performance RESTful APIs in .NET to replace regex-based validation logic, enabling real-time software diffing and improving response times by 500ms'
+    ]
+  },
+  {
     company: 'Mercari, Inc.',
     link: 'https://www.mercari.com/',
     role: 'Frontend Intern',
@@ -10,19 +26,6 @@ export const ExperienceContent = [
       'Refactored existing code to optimise item rendering and implemented DRY policy to implement coupons thus keeping the codebase minimally affected',
       'Implemented on the fly switchable PR environments and API PR endpoints allowing for a smoother development experience',
       'Worked extensively using NextJS and Context API'
-    ]
-  },
-  {
-    company: 'D.E. Shaw India',
-    link: 'https://www.deshawindia.com/',
-    role: 'Systems Intern',
-    brief: [
-      'Developed a real-time dashboard to visualize Windows server maintenance',
-      'Utilized ReactJS, MaterialUI, .NET Core 7, and Microsoft SQL Serverto create an intuitive and informative dashboard',
-      'Reduced system latency from over 8 seconds to less than 250 milliseconds',
-      'Implemented a feature providing patching operators with comprehensive timelines of server states, facilitating precise issue identification',
-      'Used Tanstack Query to implement polling for latest information',
-      'Miscellaneously, developed a bash script for automating Vite application deployment on Kubernetes, streamlining the deployment process'
     ]
   },
   {
