@@ -10,7 +10,6 @@ export const Navbar = () => {
   const proRef = useRef(null);
   const conRef = useRef(null);
   const resRef = useRef(null);
-  const blogRef = useRef(null);
   useEffect(() => {
     homeRef.current.props.style["borderBottom"] = "none";
     techRef.current.props.style["borderBottom"] = "none";
@@ -18,7 +17,6 @@ export const Navbar = () => {
     proRef.current.props.style["borderBottom"] = "none";
     conRef.current.props.style["borderBottom"] = "none";
     resRef.current.props.style["borderBottom"] = "none";
-    blogRef.current.props.style["borderBottom"] = "none";
   }, []);
   const handleHover = (e) => {
     e.target.style.cursor = "none";
@@ -118,17 +116,6 @@ export const Navbar = () => {
                   href="#contact"
                 >
                   Contact Me
-                </a>
-              </Menu.Item>
-              <Menu.Item ref={blogRef} className="link" key="blogs" style={{}}>
-                <a
-                  style={{ color: "white" }}
-                  onMouseOver={handleHover}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://blogs.rajatmaheshwari.xyz"
-                >
-                  Blogs
                 </a>
               </Menu.Item>
               <Menu.Item ref={resRef} className="link" key="resume" style={{}}>
