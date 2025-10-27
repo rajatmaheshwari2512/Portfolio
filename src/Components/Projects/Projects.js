@@ -199,7 +199,7 @@ export const Projects = () => {
               }}
             >
               The user is also given a terminal, which directly interacts with
-              a dedicated docker container spun up for the user. Reccursively
+              a dedicated docker container spun up for the user. Recursively
               hydrated folder tree so that items can be created and accessed
               at any arbitrary depth
             </p>
